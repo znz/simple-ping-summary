@@ -1,0 +1,6 @@
+*.out
+*.swp
+*~
+.DS_Store
+/data/
+_*
