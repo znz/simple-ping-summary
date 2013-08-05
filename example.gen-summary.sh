@@ -24,7 +24,7 @@ td, img {
 </head>
 <body>
 <h1>ping results</h1>
-<p>green: OK, red: NG</p>
+<p>green: alive, red: unreachable</p>
 <p>X: IP address, Y: time</p>
 HTML
 
