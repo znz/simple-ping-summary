@@ -1,11 +1,12 @@
 # simple-ping-summary
 
-simple summary generator using fping and imagemagick
+simple ping summary generator system using fping and imagemagick
 
 ## usage
 
 ### initial setting
 
+create `_run.sh`.
 ```
 cp {example.,_}run.sh
 edit _run.sh
@@ -23,4 +24,4 @@ and edit `_img/summary.html` if you want.
 
 ### daily usage
 
-see `_img/summary.html` and reload.
+see `_img/summary.html` and check status.
