@@ -17,7 +17,7 @@ static const char* const xpm[] = {
 EOF
   for f in "$OUT_DIR"/*.out; do
     echo -n '    "'
-    sort -V $f | awk -v ORS= '/alive/{print "A"}/unreachable/{print "U"}'
+    gsort -V $f | awk -v ORS= '/alive/{print "A"}/unreachable/{print "U"}'
     echo '",'
   done
   echo '};'

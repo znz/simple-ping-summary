@@ -12,7 +12,7 @@ collect () {
     for ip; do
       echo "$ip"
      done
-  } | fping -r 0 >"$OUT_FILE"
+  } | /usr/local/sbin/fping -r 0 >"$OUT_FILE"
   trap "" 1 2 3 15
 }
 if [ -z "$1" ]; then

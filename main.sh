@@ -14,7 +14,7 @@ IP_RANGE="$2"
 DATA_DIR="$DATA_TOP_DIR/$IP_PREFIX"
 IMG_DIR="$IMG_TOP_DIR/$IP_PREFIX"
 ALL_HTML="$IMG_DIR/all.html"
-IMG_THRESHOLD=$(date -d '2 days ago' '+%Y%m%d')
+IMG_THRESHOLD=$(gdate -d '2 days ago' '+%Y%m%d')
 
 mkdir -p "$IMG_DIR"
 ./collect.sh "$IP_PREFIX" "$IP_RANGE"
